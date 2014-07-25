@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maigo</string>
+    <string name="hello_world">Hello</string>
+    <string name="latitude">緯度</string>
+    <string name="langitude">経度</string>
+    <string name="config">目的地設定</string>
+    <string name="configDone">設定完了</string>
+    <stirng name="hardmode">は〜ども〜ど</stirng>
+    <string name="nowLoading">位置情報を更新中だよ！</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_destination">DestinationActivity</string>
+
+</resources>

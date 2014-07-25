@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maigo.DestinationActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/configDone" />
+
+    <LinearLayout
+        android:orientation='horizontal'
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/latitude"
+	        android:labelFor="@+id/destLati"
+	        />
+        
+	    <EditText
+	        android:id="@+id/destLati"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:digits="0123456789."
+	        android:inputType="numberDecimal"
+	        android:scrollHorizontally="true">
+    	</EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation='horizontal'
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <TextView
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/langitude"
+	        android:labelFor="@+id/destLongi"/>
+        
+	    <EditText
+	        android:id="@+id/destLongi"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:digits="0123456789."
+	        android:inputType="numberDecimal"
+	        android:scrollHorizontally="true">
+    	</EditText>
+    </LinearLayout>
+	    
+
+</FrameLayout>
